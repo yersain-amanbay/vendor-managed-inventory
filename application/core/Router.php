@@ -6,23 +6,31 @@ class Router {
 
 	protected $routes = [];
 	protected $params = [];
-	
+
+    /**
+     * Router constructor.
+     */
 	public function __construct(){
 		$arr = require 'application/config/routes.php';
 		foreach ($arr as $key => $val) {
 			$this->add($key, $val);
 		}
-	}	
+	}
 
-
+    /**
+     * @param $route
+     * @param $params
+     */
 	public function add($route, $params){
 		$route = '#^'.$route.'$#';
 		$this->routes[$route] = $params;
 	}
 
 
-
-
+    /**
+     * @return bool
+     * To check for validation URL
+     */
 	public function match(){
 		$url = trim($_SERVER['REQUEST_URI'], '/');
 		foreach ($this->routes as $route => $params) {
