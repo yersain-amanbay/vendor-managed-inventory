@@ -8,9 +8,7 @@ class AccountController extends Controller{
 	
 	public function loginAction(){
 		echo "Login seite";
-
 	}
-
 
 	public function profileAction(){
 		echo "profile seite";
