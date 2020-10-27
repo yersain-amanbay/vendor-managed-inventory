@@ -11,18 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3671a44e-a6cc-485a-98ba-6fbd5bc4f6d6" name="Default Changelist" comment="Adding a new Controllers">
-      <change afterPath="$PROJECT_DIR$/application/core/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/account/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/layouts/default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/vmi/artikel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/vmi/kunden.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/core/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Vmi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/layouts/custom.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/AccountController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/AuswertungenController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/AuswertungenController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/VerwaltungController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/VerwaltungController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/core/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/View.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +39,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/layouts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views/layouts" />
       <recent name="$PROJECT_DIR$/application/controllers" />
     </key>
   </component>
@@ -65,7 +61,7 @@
       <workItem from="1603725896036" duration="1895000" />
       <workItem from="1603780794188" duration="2756000" />
       <workItem from="1603786790882" duration="607000" />
-      <workItem from="1603803299095" duration="7756000" />
+      <workItem from="1603803299095" duration="10060000" />
     </task>
     <task id="LOCAL-00001" summary="Adding a new Controllers">
       <created>1603805492549</created>
@@ -81,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603807207266</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding a new Controllers">
+      <created>1603811123380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603811123380</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,10 +123,10 @@
       <screen x="675" y="-1057" width="1920" height="1057" />
     </state>
     <state x="1307" y="-833" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/38.23.1402.877/-1245.-1057.1920.1057/675.-1057.1920.1057@675.-1057.1920.1057" timestamp="1603806103243" />
-    <state x="1030" y="-847" key="NewPhpClassDialog" timestamp="1603809034533">
+    <state x="1030" y="-847" key="NewPhpClassDialog" timestamp="1603812506176">
       <screen x="675" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="1030" y="-847" key="NewPhpClassDialog/38.23.1402.877/-1245.-1057.1920.1057/675.-1057.1920.1057@675.-1057.1920.1057" timestamp="1603809034533" />
+    <state x="1030" y="-847" key="NewPhpClassDialog/38.23.1402.877/-1245.-1057.1920.1057/675.-1057.1920.1057@675.-1057.1920.1057" timestamp="1603812506176" />
     <state x="1417" y="-613" key="NewPhpFileDialog" timestamp="1603810750607">
       <screen x="675" y="-1057" width="1920" height="1057" />
     </state>
