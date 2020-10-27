@@ -6,10 +6,15 @@ use application\core\Controller;
 
 class MainController extends Controller{
 	
-	public function indexAction(){
-		echo "Home seite";
+	public function kundenAction(){
+		echo "VMI Kunden Controller";
 
 	}
+
+    public function artikelAction(){
+        echo "VMI Artikel Controller";
+
+    }
 }
 
 ?>

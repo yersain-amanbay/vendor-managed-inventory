@@ -1,34 +1,71 @@
 <?php
 
+$subdomain = "vendor-management-inventory/";
+
 return [
-    'vendor-management-inventory'  => [
-        'controller' => 'redirect',
-        'action' => ''
+    $subdomain  => [
+        'controller' => 'vmi',
+        'action' => 'redirect'
     ],
 
-    'vendor-management-inventory/vmi/kunden'  => [
+    $subdomain.'vmi/kunden'  => [
         'controller' => 'vmi',
         'action' => 'kunden'
     ],
 
-    'vendor-management-inventory/vmi/artikel'  => [
+    $subdomain.'vmi/artikel'  => [
         'controller' => 'vmi',
         'action' => 'artikel'
     ],
 
-	'vendor-management-inventory/account/login'  => [
+    $subdomain.'auswertungen/allgemein'  => [
+        'controller' => 'auswertungen',
+        'action' => 'allgemein'
+    ],
+
+    $subdomain.'auswertungen/abrechnung'  => [
+        'controller' => 'auswertungen',
+        'action' => 'abrechnung'
+    ],
+
+    $subdomain.'auswertungen/statistik'  => [
+        'controller' => 'auswertungen',
+        'action' => 'statistik'
+    ],
+
+    $subdomain.'verwaltung/benutzer'  => [
+        'controller' => 'verwaltung',
+        'action' => 'benutzer'
+    ],
+
+    $subdomain.'verwaltung/kunden'  => [
+        'controller' => 'verwaltung',
+        'action' => 'kunden'
+    ],
+
+    $subdomain.'verwaltung/artikel'  => [
+        'controller' => 'verwaltung',
+        'action' => 'artikel'
+    ],
+
+    $subdomain.'verwaltung/order'  => [
+        'controller' => 'verwaltung',
+        'action' => 'order'
+    ],
+
+    $subdomain.'verwaltung/rechte'  => [
+        'controller' => 'verwaltung',
+        'action' => 'rechte'
+    ],
+
+    $subdomain.'account/login'  => [
 		'controller' => 'account',
 		'action' => 'login'
 	],
 
-	'vendor-management-inventory/account/register'  => [
+    $subdomain.'account/profile'  => [
 		'controller' => 'account',
-		'action' => 'register'
-	],
-
-	'news/show'  => [
-		'controller' => 'news',
-		'action' => 'show'
+		'action' => 'profile'
 	]
 ];
 

@@ -4,7 +4,7 @@ namespace application\controllers;
 
 use application\core\Controller;
 
-class RedirectController extends Controller{
+class AuswertungenController extends Controller{
 	
 	public function Action(){
 		echo "Redirect seite";

@@ -12,8 +12,8 @@ class AccountController extends Controller{
 	}
 
 
-	public function registerAction(){
-		echo "registeration seite";
+	public function profileAction(){
+		echo "profile seite";
 		var_dump($this->route);
 	}
 }
