@@ -10,14 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3671a44e-a6cc-485a-98ba-6fbd5bc4f6d6" name="Default Changelist" comment="Adding a new Controllers">
-      <change afterPath="$PROJECT_DIR$/application/core/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/models/Vmi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/layouts/custom.php" afterDir="false" />
+    <list default="true" id="3671a44e-a6cc-485a-98ba-6fbd5bc4f6d6" name="Default Changelist" comment="Adding a new Models">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/AccountController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/core/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/View.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +55,8 @@
       <workItem from="1603725896036" duration="1895000" />
       <workItem from="1603780794188" duration="2756000" />
       <workItem from="1603786790882" duration="607000" />
-      <workItem from="1603803299095" duration="10060000" />
+      <workItem from="1603803299095" duration="10505000" />
+      <workItem from="1603888334766" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="Adding a new Controllers">
       <created>1603805492549</created>
@@ -84,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603811123380</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding a new Models">
+      <created>1603813534186</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603813534186</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +106,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding a new Controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a new Controllers" />
+    <MESSAGE value="Adding a new Models" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a new Models" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1095" y="-874" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603727006834">
@@ -131,5 +134,9 @@
       <screen x="675" y="-1057" width="1920" height="1057" />
     </state>
     <state x="1417" y="-613" key="NewPhpFileDialog/38.23.1402.877/-1245.-1057.1920.1057/675.-1057.1920.1057@675.-1057.1920.1057" timestamp="1603810750607" />
+    <state x="1135" y="-852" key="Vcs.Push.Dialog.v2" timestamp="1603813538978">
+      <screen x="675" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="1135" y="-852" key="Vcs.Push.Dialog.v2/38.23.1402.877/-1245.-1057.1920.1057/675.-1057.1920.1057@675.-1057.1920.1057" timestamp="1603813538978" />
   </component>
 </project>
