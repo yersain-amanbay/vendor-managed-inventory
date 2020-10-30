@@ -1,69 +1,74 @@
 <?php
-
-$subdomain = "vendor-management-inventory";
+include 'conf.main.php';
+$url = trim(subdomain, '/');
 
 return [
-    $subdomain  => [
+    $url  => [
         'controller' => 'vmi',
         'action' => 'redirect'
     ],
 
-    $subdomain.'/vmi/kunden'  => [
+    $url.'/vmi/kunden'  => [
         'controller' => 'vmi',
         'action' => 'kunden'
     ],
 
-    $subdomain.'/vmi/artikel'  => [
+    $url.'/vmi/artikel'  => [
         'controller' => 'vmi',
         'action' => 'artikel'
     ],
 
-    $subdomain.'/auswertungen/allgemein'  => [
+    $url.'/auswertungen/allgemein'  => [
         'controller' => 'auswertungen',
         'action' => 'allgemein'
     ],
 
-    $subdomain.'/auswertungen/abrechnung'  => [
+    $url.'/auswertungen/abrechnung'  => [
         'controller' => 'auswertungen',
         'action' => 'abrechnung'
     ],
 
-    $subdomain.'/auswertungen/statistik'  => [
+    $url.'/auswertungen/statistik'  => [
         'controller' => 'auswertungen',
         'action' => 'statistik'
     ],
 
-    $subdomain.'/verwaltung/benutzer'  => [
+    $url.'/verwaltung/benutzer'  => [
         'controller' => 'verwaltung',
         'action' => 'benutzer'
     ],
 
-    $subdomain.'/verwaltung/kunden'  => [
+    $url.'/verwaltung/kunden'  => [
         'controller' => 'verwaltung',
         'action' => 'kunden'
     ],
 
-    $subdomain.'/verwaltung/artikel'  => [
+    $url.'/verwaltung/artikel'  => [
         'controller' => 'verwaltung',
         'action' => 'artikel'
     ],
 
-    $subdomain.'/verwaltung/order'  => [
+    $url.'/verwaltung/order'  => [
         'controller' => 'verwaltung',
         'action' => 'order'
     ],
 
-    $subdomain.'/verwaltung/rechte'  => [
+    $url.'/verwaltung/rechte'  => [
         'controller' => 'verwaltung',
         'action' => 'rechte'
     ],
 
-    $subdomain.'/account/login'  => [
+    $url.'/account/login'  => [
 		'controller' => 'account',
 		'action' => 'login'
 	],
 
-    $subdomain.'/account/profile'  => [
+    $url.'/account/logout'  => [
+        'controller' => 'account',
+        'action' => 'logout'
+    ],
+
+    $url.'/account/profile'  => [
 		'controller' => 'account',
 		'action' => 'profile'
 	]

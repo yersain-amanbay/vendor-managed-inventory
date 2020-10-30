@@ -15,10 +15,15 @@ abstract class Controller{
         $this->view = new View($route);
         $this->model = $this->loadModel($route['controller']);
 
-        /**
-         * Import Main config
-         */
         require_once 'application/config/conf.main.php';
+
+        if($route['action'] != 'login'){
+            if(empty($_SESSION['ok']) && !$_SESSION['ok']){
+                header("Location: ".subdomain."/account/login");
+            }
+        }
+
+
 	}
 
 	public function loadModel($name){
@@ -27,6 +32,7 @@ abstract class Controller{
 	        return new $path;
         }
     }
+
 }
 
 

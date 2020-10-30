@@ -5,8 +5,11 @@ namespace application\controllers;
 use application\core\Controller;
 
 class VmiController extends Controller{
-	
+
+
 	public function kundenAction(){
+
+
 	    $this->model->getKunden();
 		$this->view->render("Kunden");
 	}

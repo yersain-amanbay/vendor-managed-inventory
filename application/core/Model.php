@@ -5,7 +5,7 @@ namespace application\core;
 
 use application\lib\DB;
 
-abstract class Model
+abstract class Model extends DB
 {
     protected $db;
 

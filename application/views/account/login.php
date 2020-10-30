@@ -3,7 +3,7 @@
 		<div class="container-login100">
 			<div class="wrap-login100 p-t-50 p-b-90">
 
-				<form method="post" class="login100-form flex-sb flex-w" action="<?= subdomain ?>">
+				<form method="post" class="login100-form flex-sb flex-w" >
 
 					<span class="login100-form-title p-b-51">
 						<img class="logo" src="<?= subdomain ?>/public/images/logo/logo.png">

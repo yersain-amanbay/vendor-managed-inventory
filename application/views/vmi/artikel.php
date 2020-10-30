@@ -1,3 +1,3 @@
 
 <?php
-echo "Artikels";
+echo '<a href="'.subdomain.'/account/logout/">Logout</a>';

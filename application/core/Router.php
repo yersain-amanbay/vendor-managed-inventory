@@ -62,6 +62,7 @@ class Router {
 
 		}else{
 			echo "Route nicht gefunden";
+
 		}
 	}
 }
