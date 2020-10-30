@@ -7,9 +7,8 @@ use application\core\Controller;
 class AccountController extends Controller{
 	
 	public function loginAction(){
-	    $this->view->layout = "custom";
-	    $this->view->render("Login");
-		echo "Login seite";
+	    $this->view->layout = "login";
+	    $this->view->render(main_title);
 	}
 
 	public function profileAction(){

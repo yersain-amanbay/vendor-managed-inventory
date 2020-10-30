@@ -1,0 +1,11 @@
+{
+    "name": "amanbay/vendor-management-inventory",
+    "authors": [
+        {
+            "name": "Yersain",
+            "email": "y.y.amanbay@gmail.com"
+        }
+    ],
+    "require": {
+    }
+}

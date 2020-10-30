@@ -11,7 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3671a44e-a6cc-485a-98ba-6fbd5bc4f6d6" name="Default Changelist" comment="Adding a new Models">
+      <change afterPath="$PROJECT_DIR$/application/config/conf.main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Auswertungen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Verwaltung.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/layouts/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/AccountController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/account/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/account/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +67,7 @@
       <workItem from="1603803299095" duration="10505000" />
       <workItem from="1603888334766" duration="1414000" />
       <workItem from="1603958499229" duration="1148000" />
+      <workItem from="1604042398805" duration="7820000" />
     </task>
     <task id="LOCAL-00001" summary="Adding a new Controllers">
       <created>1603805492549</created>
@@ -118,10 +128,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Adding a new Models" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1095" y="-874" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603727006834">
+    <state x="1095" y="-874" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604051258009">
       <screen x="675" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="1095" y="-874" key="#com.intellij.execution.impl.EditConfigurationsDialog/38.23.1402.877/-1245.-1057.1920.1057/675.-1057.1920.1057@675.-1057.1920.1057" timestamp="1603727006834" />
+    <state x="1095" y="-874" key="#com.intellij.execution.impl.EditConfigurationsDialog/38.23.1402.877/-1245.-1057.1920.1057/675.-1057.1920.1057@675.-1057.1920.1057" timestamp="1604051258009" />
     <state x="1353" y="-736" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603809402334">
       <screen x="675" y="-1057" width="1920" height="1057" />
     </state>
@@ -134,14 +144,14 @@
       <screen x="675" y="-1057" width="1920" height="1057" />
     </state>
     <state x="1307" y="-833" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/38.23.1402.877/-1245.-1057.1920.1057/675.-1057.1920.1057@675.-1057.1920.1057" timestamp="1603806103243" />
-    <state x="1030" y="-847" key="NewPhpClassDialog" timestamp="1603812506176">
+    <state x="1030" y="-847" key="NewPhpClassDialog" timestamp="1604050148178">
       <screen x="675" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="1030" y="-847" key="NewPhpClassDialog/38.23.1402.877/-1245.-1057.1920.1057/675.-1057.1920.1057@675.-1057.1920.1057" timestamp="1603812506176" />
-    <state x="1417" y="-613" key="NewPhpFileDialog" timestamp="1603810750607">
+    <state x="1030" y="-847" key="NewPhpClassDialog/38.23.1402.877/-1245.-1057.1920.1057/675.-1057.1920.1057@675.-1057.1920.1057" timestamp="1604050148178" />
+    <state x="1417" y="-613" key="NewPhpFileDialog" timestamp="1604051379794">
       <screen x="675" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="1417" y="-613" key="NewPhpFileDialog/38.23.1402.877/-1245.-1057.1920.1057/675.-1057.1920.1057@675.-1057.1920.1057" timestamp="1603810750607" />
+    <state x="1417" y="-613" key="NewPhpFileDialog/38.23.1402.877/-1245.-1057.1920.1057/675.-1057.1920.1057@675.-1057.1920.1057" timestamp="1604051379794" />
     <state x="1135" y="-852" key="Vcs.Push.Dialog.v2" timestamp="1603813538978">
       <screen x="675" y="-1057" width="1920" height="1057" />
     </state>

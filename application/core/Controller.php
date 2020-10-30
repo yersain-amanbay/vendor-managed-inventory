@@ -14,6 +14,11 @@ abstract class Controller{
 		$this->route = $route;
         $this->view = new View($route);
         $this->model = $this->loadModel($route['controller']);
+
+        /**
+         * Import Main config
+         */
+        require_once 'application/config/conf.main.php';
 	}
 
 	public function loadModel($name){
