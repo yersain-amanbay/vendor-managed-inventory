@@ -1,1 +1,1 @@
-# vmi
+Vendor-managed-inventory (VMI) is an inventory management practice in which a supplier of goods
